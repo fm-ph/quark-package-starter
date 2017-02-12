@@ -72,7 +72,7 @@ npm run test:watch
 For coverage :
 
 ```sh
-npm test:coverage
+npm run test:coverage
 ```
 
 ## License
