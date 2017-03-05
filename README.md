@@ -2,6 +2,8 @@
 
 Simple repository to start a new `quark` package.
 
+___This package is part of `quark` framework but it can be used independently.___
+
 ## Installation
 
 ```sh
