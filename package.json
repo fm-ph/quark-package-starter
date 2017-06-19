@@ -41,6 +41,9 @@
     "minami": "nijikokun/minami",
     "nyc": "^10.1.2"
   },
+  "standard": {
+    "parser": "babel-eslint"
+  },
   "babel": {
     "presets": [
       "es2015"
