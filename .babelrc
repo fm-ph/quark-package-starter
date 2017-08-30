@@ -1,0 +1,14 @@
+{
+  "presets": [
+    "es2015"
+  ],
+  "env": {
+    "development": {
+      "sourceMaps": "inline",
+      "plugins": [
+        "transform-runtime",
+        "add-module-exports"
+      ]
+    }
+  }
+}
