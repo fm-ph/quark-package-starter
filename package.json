@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "BABEL_ENV=production npm run build:clean && babel src -d lib",
-    "build:watch": "BABEL_ENV=production npm run build:clean && babel src -d lib -w",
+    "build:watch": "npm run build -- -w",
     "build:clean": "del-cli lib/",
     "docs": "npm run docs:clean && node_modules/.bin/jsdoc --configure jsdoc.json",
     "docs:clean": "del-cli docs/",
