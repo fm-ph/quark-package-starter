@@ -7,7 +7,7 @@
     "build": "BABEL_ENV=production npm run build:clean && babel src -d lib",
     "build:watch": "BABEL_ENV=production npm run build:clean && babel src -d lib -w",
     "build:clean": "del-cli lib/",
-    "docs": "npm run docs:clean && node_modules/.bin/jsdoc --configure jsdoc.json --verbose --recurse",
+    "docs": "npm run docs:clean && node_modules/.bin/jsdoc --configure jsdoc.json",
     "docs:clean": "del-cli docs/",
     "docs:deploy": "npm run docs && gh-pages -d docs/ -m 'docs: update'",
     "test": "ava",
