@@ -55,7 +55,7 @@ To run the tests, first clone the repository and install its dependencies :
 
 ```sh
 git clone https://github.com/fm_ph/quark-package-starter.git
-cd quark-signal
+cd quark-package-starter
 npm install
 ```
 
