@@ -1,4 +1,4 @@
-# quark-package-starter
+# [<img src="logo.png" alt="quark-package-starter" width="180">](https://github.com/fm-ph/quark-package-starter)
 
 Simple repository to start a new `quark` package.
 
