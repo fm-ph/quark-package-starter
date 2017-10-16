@@ -10,6 +10,7 @@
     "docs": "npm run docs:clean && documentation build src/* --format html --o docs",
     "docs:clean": "del-cli docs/",
     "docs:deploy": "npm run docs && gh-pages -d docs/ -m 'docs: update'",
+    "docs:serve": "documentation serve",
     "test": "standard && jest",
     "test:watch": "npm test -- --watch",
     "test:coverage": "jest --coverage",
