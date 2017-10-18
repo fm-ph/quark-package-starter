@@ -14,7 +14,7 @@
     "test": "standard && jest",
     "test:watch": "npm test -- --watch",
     "test:coverage": "jest --coverage",
-    "prepublish": "npm test && npm run build"
+    "prepublishOnly": "npm test && npm run build"
   },
   "keywords": [
     "quark"
